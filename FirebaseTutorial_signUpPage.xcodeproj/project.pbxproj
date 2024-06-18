@@ -10,6 +10,10 @@
 		2F6AA4422C20D1AC00C2B8AF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2F6AA4412C20D1AC00C2B8AF /* FirebaseAuth */; };
 		2F6AA4442C20D1AC00C2B8AF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2F6AA4432C20D1AC00C2B8AF /* FirebaseFirestore */; };
 		2F6AA4462C20D38700C2B8AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F6AA4452C20D38700C2B8AF /* GoogleService-Info.plist */; };
+		2F6BF5012C21B8890007EBE2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BF5002C21B8890007EBE2 /* ListView.swift */; };
+		2F6BF5032C21B8950007EBE2 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BF5022C21B8950007EBE2 /* Dog.swift */; };
+		2F6BF5052C21BA120007EBE2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BF5042C21BA120007EBE2 /* DataManager.swift */; };
+		2F6BF5092C21D0950007EBE2 /* NewDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BF5082C21D0950007EBE2 /* NewDog.swift */; };
 		2FEB48302C204D2C001B6FAA /* FirebaseTutorial_signUpPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB482F2C204D2C001B6FAA /* FirebaseTutorial_signUpPageApp.swift */; };
 		2FEB48322C204D2C001B6FAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB48312C204D2C001B6FAA /* ContentView.swift */; };
 		2FEB48342C204D2D001B6FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB48332C204D2D001B6FAA /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		2F6AA4452C20D38700C2B8AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F6BF5002C21B8890007EBE2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		2F6BF5022C21B8950007EBE2 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		2F6BF5042C21BA120007EBE2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2F6BF5082C21D0950007EBE2 /* NewDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDog.swift; sourceTree = "<group>"; };
 		2FEB482C2C204D2C001B6FAA /* FirebaseTutorial_signUpPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTutorial_signUpPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEB482F2C204D2C001B6FAA /* FirebaseTutorial_signUpPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTutorial_signUpPageApp.swift; sourceTree = "<group>"; };
 		2FEB48312C204D2C001B6FAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +110,10 @@
 			children = (
 				2FEB482F2C204D2C001B6FAA /* FirebaseTutorial_signUpPageApp.swift */,
 				2FEB48312C204D2C001B6FAA /* ContentView.swift */,
+				2F6BF5002C21B8890007EBE2 /* ListView.swift */,
+				2F6BF5082C21D0950007EBE2 /* NewDog.swift */,
+				2F6BF5022C21B8950007EBE2 /* Dog.swift */,
+				2F6BF5042C21BA120007EBE2 /* DataManager.swift */,
 				2FEB48332C204D2D001B6FAA /* Assets.xcassets */,
 				2F6AA4452C20D38700C2B8AF /* GoogleService-Info.plist */,
 				2FEB48352C204D2D001B6FAA /* Preview Content */,
@@ -273,7 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FEB48322C204D2C001B6FAA /* ContentView.swift in Sources */,
+				2F6BF5092C21D0950007EBE2 /* NewDog.swift in Sources */,
+				2F6BF5052C21BA120007EBE2 /* DataManager.swift in Sources */,
 				2FEB48302C204D2C001B6FAA /* FirebaseTutorial_signUpPageApp.swift in Sources */,
+				2F6BF5032C21B8950007EBE2 /* Dog.swift in Sources */,
+				2F6BF5012C21B8890007EBE2 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

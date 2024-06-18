@@ -11,7 +11,16 @@ import Firebase
 struct ContentView: View {
     @State private var email = ""
     @State private var password = ""
+    @State private var userIsloggedIn = false
     var body: some View {
+        if userIsloggedIn {
+            //
+        } else {
+            content
+        }
+    }
+    
+    var content: some View{
         ZStack {
             Color(.black)
             RoundedRectangle(cornerRadius: 30, style: .continuous)
@@ -79,9 +88,19 @@ struct ContentView: View {
             }
             
             .frame(width:350)
+            
+            
+            .onAppear{
+                Auth.auth().addStateDidChangeListener  {auth , user in
+                    if user != nil {
+                        userIsloggedIn.toggle()
+                    }
+                }
+            }
         }
         .ignoresSafeArea()
     }
+    
     func register(){
         Auth.auth().createUser(withEmail: email, password: password) { result, error in
             if error != nil{

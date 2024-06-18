@@ -11,12 +11,14 @@ import Firebase
 @main
 struct FirebaseTutorial_signUpPageApp: App {
     
+    @StateObject var dataManager = DataManager()
     init(){
         FirebaseApp.configure()
     }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
+                .environmentObject(DataManager())
         }
     }
 }
